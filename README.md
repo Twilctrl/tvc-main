@@ -1,15 +1,17 @@
 # tvc-main
 
-Everything in one place.
+A home for projects built with my local models. Local model work is the main focus here, with Claude and Codex projects included as side hobbies.
 
 | Folder          | What's in it              | Source                                                          |
 |-----------------|---------------------------|-----------------------------------------------------------------|
-| `claude/`       | Claude projects           | [Twilctrl/Claude-Main](https://github.com/Twilctrl/Claude-Main)   |
-| `codex/`        | Codex projects            | [Twilctrl/ChatGPT-Main](https://github.com/Twilctrl/ChatGPT-Main) |
-| `local-models/` | Local model projects      | This repo                                                       |
+| `local-models/` | Main projects built with local models | This repo                                            |
+| `claude/`       | Claude side projects      | [Twilctrl/Claude-Main](https://github.com/Twilctrl/Claude-Main)   |
+| `codex/`        | Codex side projects       | [Twilctrl/ChatGPT-Main](https://github.com/Twilctrl/ChatGPT-Main) |
+
+Local model projects live directly in `local-models/`.
 
 `claude/` and `codex/` are git submodules: links to the original repos, not copies.
-Keep working in those repos; this one points at a specific commit of each.
+Keep working on those side projects in their own repos; this one points at a specific commit of each.
 
 ## Clone
 
@@ -23,7 +25,9 @@ Already cloned without `--recursive`?
 git submodule update --init
 ```
 
-## Pick up new commits from Claude-Main / ChatGPT-Main
+## Update the side-project submodules
+
+To pick up new commits from Claude-Main and ChatGPT-Main:
 
 ```sh
 git submodule update --remote
