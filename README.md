@@ -4,9 +4,11 @@ A home for projects built with my local models. Local model work is the main foc
 
 | Folder          | What's in it              | Source                                                          |
 |-----------------|---------------------------|-----------------------------------------------------------------|
-| `local-models/` | Main projects built with local models | This repo                                            |
+| `local-models/` | Main projects built with local models | [Ministral-3-3B Locally](local-models/Ministral-3-3B%20Locally/)|
 | `claude/`       | Claude side projects      | [Twilctrl/Claude-Main](https://github.com/Twilctrl/Claude-Main)   |
 | `codex/`        | Codex side projects       | [Twilctrl/ChatGPT-Main](https://github.com/Twilctrl/ChatGPT-Main) |
+
+<!-- Keep links to every project folder stored in this repo in the local-models Source cell above. Add each new folder there when it is created. -->
 
 Local model projects live directly in `local-models/`.
 
