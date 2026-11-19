@@ -1,0 +1,6 @@
+[submodule "claude"]
+	path = claude
+	url = https://github.com/Twilctrl/Claude-Main.git
+[submodule "codex"]
+	path = codex
+	url = https://github.com/Twilctrl/ChatGPT-Main.git
